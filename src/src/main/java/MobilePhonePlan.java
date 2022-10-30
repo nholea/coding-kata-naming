@@ -9,14 +9,19 @@ public class MobilePhonePlan {
 
     private final double smsPrice;
 
-    private final double callsMinutesPrice;
+    private final double priceCallsPeakMinutes;
+    private final double priceCallsNightMinutes;
 
-    public MobilePhonePlan(int id, String name, String description, double sms, int data, double smsPrice, double callsMinutesPrice) {
+    private final double planPrice;
+
+    public MobilePhonePlan(int id, String name, String description, double sms, int data, double smsPrice, double priceCallsPeakMinutes, double priceCallsNightMinutes, double planPrice) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.data = data;
         this.smsPrice = smsPrice;
-        this.callsMinutesPrice = callsMinutesPrice;
+        this.priceCallsPeakMinutes = priceCallsPeakMinutes;
+        this.priceCallsNightMinutes = priceCallsNightMinutes;
+        this.planPrice = planPrice;
     }
 }
