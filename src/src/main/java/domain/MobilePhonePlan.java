@@ -2,7 +2,7 @@ package domain;
 
 public class MobilePhonePlan {
 
-    private final int id;
+    private int id;
 
     private final String name;
 
