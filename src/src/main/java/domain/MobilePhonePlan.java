@@ -1,3 +1,5 @@
+package domain;
+
 public class MobilePhonePlan {
 
     private final int id;

@@ -1,3 +1,5 @@
+package domain;
+
 public class Client {
 
         private final int id;
