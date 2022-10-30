@@ -1,7 +1,5 @@
 package domain;
 
-import infrastruture.repositories.Pho;
-
 import java.time.LocalDate;
 
 public class MobilePhoneBill {
