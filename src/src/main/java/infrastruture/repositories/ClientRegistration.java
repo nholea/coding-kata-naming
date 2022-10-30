@@ -1,6 +1,11 @@
+package infrastruture.repositories;
+
+import domain.Client;
+import domain.ClientRepository;
+
 import java.util.ArrayList;
 
-public class ClientRegistration implements ClientRepository{
+public class ClientRegistration implements ClientRepository {
 
 
     private final ArrayList<Client> clientList = new ArrayList<>();
